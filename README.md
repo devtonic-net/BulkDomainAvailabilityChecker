@@ -20,9 +20,15 @@ It provides information about the registration status, registration and renewal 
 
 ## Installation
 
-1. Clone or download the repository.
-2. Install the only required dependency by running the following command:
+1. Clone/download this repository to your local machine.
+2. Open a terminal and navigate to the project directory.
+3. Create a new virtual environment by running the following command:
+```python3 -m venv venv```
 
+4. Activate the virtual environment:
+```source venv/bin/activate```
+
+5. Install the only required dependency by running the following command:
 ```pip install requests```
 
 ## Example Usage
