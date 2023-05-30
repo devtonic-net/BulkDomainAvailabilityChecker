@@ -34,6 +34,7 @@ It provides information about the registration status, registration and renewal 
 ```eureg = Eureg()```
 
 3. Use the ```get_status``` method to check the availability of domain names:
+
 ```keyword_ideas = ["science blog", "how to make money"]```
 
 ```python
