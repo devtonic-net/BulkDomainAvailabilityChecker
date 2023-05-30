@@ -35,9 +35,8 @@ It provides information about the registration status, registration and renewal 
 
 3. Use the ```get_status``` method to check the availability of domain names:
 
-```keyword_ideas = ["science blog", "how to make money"]```
-
 ```python
+keyword_ideas = ["science blog", "how to make money"]
 results = eureg.get_status(domain_names=keyword_ideas, preferred_tlds=["ro", "com"], return_available_only=False
 ```
 
